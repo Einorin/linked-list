@@ -52,6 +52,7 @@ function linkedList(){
         },
         head(){
             console.log("Head: ",head.value)
+            return ("Head: ",head.value)
         },
         tail(){
             if(!head){
@@ -141,6 +142,7 @@ function linkedList(){
                 stringVersion += nodeString
             }
             console.log(stringVersion + ("( null )"))
+            return (stringVersion + ("( null )"))
         }
     }
 }
